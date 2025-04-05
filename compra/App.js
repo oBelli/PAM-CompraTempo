@@ -8,7 +8,7 @@ export default function App() {
   const [mostrarInput, setMostrarInput] = useState(false); 
   const [tempoEscolhido, setTempoEscolhido] = useState('');
 
-  const TEMPO_MAXIMO = 60 * 60; // 60 minutos
+  const TEMPO_MAXIMO = 60 * 60; 
 
   useEffect(() => {
     let interval;
