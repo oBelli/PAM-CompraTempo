@@ -2,9 +2,9 @@ import { Text, SafeAreaView, StyleSheet, View, TextInput, TouchableOpacity } fro
 import { useState, useEffect } from 'react';
 
 export default function App() {
-  const [tempo, setTempo] = useState(0);              // Tempo em segundos
-  const [status, setStatus] = useState(false);         // Status do cronômetro
-  const [valor, setValor] = useState(0);               // Valor em R$
+  const [tempo, setTempo] = useState(0);              
+  const [status, setStatus] = useState(false);       
+  const [valor, setValor] = useState(0);               
   const [mostrarInput, setMostrarInput] = useState(false); 
   const [tempoEscolhido, setTempoEscolhido] = useState('');
 
